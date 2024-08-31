@@ -1,0 +1,28 @@
+//Formula of arithmetic progression
+
+function sum_to_n(n) {
+  return (n * (n + 1)) / 2;
+}
+
+//Iterative approach
+
+function sum_to_n(n) {
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
+
+//Recursive approach
+
+const sum_to_n = (n) => (n === 1 ? 1 : n + sum_to_n(n - 1));
+
+//reduce
+
+function sum_to_n(n) {
+  return Array.from({ length: n }, (_, i) => i + 1).reduce(
+    (acc, curr) => acc + curr,
+    0
+  );
+}
