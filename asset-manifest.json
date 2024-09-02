@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/code-challenge/src/problem2/fancy-form/static/css/main.fae16346.css",
+    "main.js": "/code-challenge/src/problem2/fancy-form/static/js/main.f534bbfe.js",
+    "index.html": "/code-challenge/src/problem2/fancy-form/index.html",
+    "main.fae16346.css.map": "/code-challenge/src/problem2/fancy-form/static/css/main.fae16346.css.map",
+    "main.f534bbfe.js.map": "/code-challenge/src/problem2/fancy-form/static/js/main.f534bbfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fae16346.css",
+    "static/js/main.f534bbfe.js"
+  ]
+}
