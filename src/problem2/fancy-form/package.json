@@ -2,7 +2,7 @@
   "name": "fancy-form",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://savelieva0509.github.io/code-challenge-liudmyla-babenko/src/problem2/fancy-form/",
+  "homepage": "https://Savelieva0509.github.io/code-challenge-liudmyla-babenko/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
     "@types/node": "^20",
