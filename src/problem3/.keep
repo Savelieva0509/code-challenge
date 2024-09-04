@@ -1,0 +1,22 @@
+## Computational Inefficiencies and Anti-Patterns 
+# Inefficient Priority Calculation:
+
+* Issue: The getPriority function is called multiple times within the useMemo hook. This function could be optimized or memoized to avoid recalculating priority for each balance repeatedly.
+* Solution: Use a useMemo hook to memoize the priority values or compute them once and store them.
+Inefficient Filter and Sort Operations:
+
+* Issue: The filter and sort operations are performed within the useMemo hook, but the filter and sort should be separated to make the code more efficient and readable.
+* Solution: First filter the balances, then sort the filtered results. This improves readability and efficiency.
+toFixed() Usage:
+
+* Issue: balance.amount.toFixed() is used without specifying the number of decimal places. This might lead to unintended formatting issues.
+* Solution: Specify the number of decimal places or use a formatting library to handle formatting consistently.
+Unnecessary Mapping:
+
+* Issue: sortedBalances is mapped twice: first to format the balances and then to create rows. This could be combined into a single mapping process to avoid redundant iterations.
+* Solution: Combine the formatting and row creation into a single map operation.
+Inefficient Key Prop in List:
+
+* Issue: Using index as the key prop in the WalletRow component. This can lead to issues with component state and performance, especially if the list is modified.
+* Solution: Use a unique identifier from the balance object as the key.
+
