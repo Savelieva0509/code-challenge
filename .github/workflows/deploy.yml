@@ -13,12 +13,12 @@ jobs:
 
       - name: Install, lint, build 🔧
         run: |
+          cd src/problem2/fancy-form
           npm install
-          npm run lint:js
           npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build
+          folder: src/problem2/fancy-form/build
