@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/code-challenge/src/problem2/fancy-form/static/css/main.fae16346.css",
-    "main.js": "/code-challenge/src/problem2/fancy-form/static/js/main.f534bbfe.js",
-    "index.html": "/code-challenge/src/problem2/fancy-form/index.html",
-    "main.fae16346.css.map": "/code-challenge/src/problem2/fancy-form/static/css/main.fae16346.css.map",
-    "main.f534bbfe.js.map": "/code-challenge/src/problem2/fancy-form/static/js/main.f534bbfe.js.map"
+    "main.css": "/code-challenge-liudmyla-babenko/src/problem2/fancy-form/static/css/main.8e38ee23.css",
+    "main.js": "/code-challenge-liudmyla-babenko/src/problem2/fancy-form/static/js/main.d7c016cf.js",
+    "index.html": "/code-challenge-liudmyla-babenko/src/problem2/fancy-form/index.html",
+    "main.8e38ee23.css.map": "/code-challenge-liudmyla-babenko/src/problem2/fancy-form/static/css/main.8e38ee23.css.map",
+    "main.d7c016cf.js.map": "/code-challenge-liudmyla-babenko/src/problem2/fancy-form/static/js/main.d7c016cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.fae16346.css",
-    "static/js/main.f534bbfe.js"
+    "static/css/main.8e38ee23.css",
+    "static/js/main.d7c016cf.js"
   ]
 }
