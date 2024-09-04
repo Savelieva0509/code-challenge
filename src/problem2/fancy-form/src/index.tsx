@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/code-challenge-liudmyla-babenko">
+    <BrowserRouter basename="/code-challenge-liudmyla-babenko/src/problem2/fancy-form">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
